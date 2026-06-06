@@ -1,94 +1,50 @@
-# Calorie Counter 🍽️🔢
+# Calorie Counter AI
 
-**Calorie Counter** is an innovative AI-powered application that analyzes food images to provide detailed nutritional insights. Using advanced image recognition and Google's Generative AI, it offers users a quick and easy way to understand the caloric content and health impacts of their meals.
+> AI-powered food analysis app — upload any meal photo and get instant calorie count, macro breakdown, and nutritional insights using Google Gemini Vision.
+
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Gemini](https://img.shields.io/badge/Google_Gemini-Vision-4285F4?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev)
+
+---
 
 ## Overview
 
-Calorie Counter is designed for health-conscious individuals, dietitians, and anyone interested in understanding their food better. By simply uploading a photo of their meal, users receive comprehensive information about calories, ingredients, and potential health effects, making informed dietary choices easier than ever.
+Calorie Counter AI uses **Google Gemini Vision** to analyze meal photos and provide comprehensive nutritional information — calories, macros, ingredients, and health impact — in seconds.
+
+Perfect for health-conscious individuals, dietitians, and fitness enthusiasts who want effortless food tracking.
+
+---
 
 ## Features
 
-- 📸 **Image Upload**: Easily upload food photos for instant analysis.
-- 🤖 **AI-Powered Recognition**: Utilizes Google's Generative AI for accurate food identification.
-- 📊 **Detailed Calorie Breakdown**: Get specific calorie information for each food item.
-- 🥗 **Health Insights**: Learn about healthy and potentially harmful ingredients in your meal.
-- 💡 **Dietary Context**: Understand how your meal fits into your daily calorie needs.
-- 📱 **User-Friendly Interface**: Built with Streamlit for a smooth, interactive experience.
+- **Photo Analysis** — Upload any meal photo for instant nutritional breakdown
+- **Calorie Estimation** — AI-powered calorie count with portion size detection
+- **Macro Breakdown** — Protein, carbohydrates, fats, and fiber breakdown
+- **Ingredient Detection** — Identifies individual food items automatically
+- **Health Insights** — Glycemic index, allergen flags, and dietary suitability
 
-## Setup Instructions
+---
 
-### Prerequisites
+## Quick Start
 
-- Python 3.7 or higher
-- pip (Python package manager)
-- Google Generative AI API key
+```bash
+git clone https://github.com/SauravSrivastav/caloriecounter-st.git
+cd caloriecounter-st
+pip install streamlit google-generativeai pillow
+# Set GEMINI_API_KEY in environment
+streamlit run app.py
+```
 
-### Installation
+---
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/SauravSrivastav/caloriecounter-st.git
-    cd caloriecounter-st
-    ```
+## Built By
 
-2. **Create a virtual environment (optional but recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
+**Saurav Srivastav** — Cloud & DevSecOps Leader | Azure · MLOps · LLMOps | Dubai, UAE
 
-3. **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/sauravsrivastav2205/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0078D4?style=flat-square&logo=vercel)](https://saurav-srivastav-portfolio.vercel.app)
 
-4. **Create a `.env` file in the root directory and add your Google Generative AI API key:**
-    ```
-    GOOGLE_API_KEY=your_api_key_here
-    ```
+---
 
-5. **Ensure you have a `requirements.txt` file in your project directory with the following contents:**
-    ```
-    streamlit
-    pillow
-    google-generativeai
-    python-dotenv
-    ```
-
-6. **Run the application:**
-    ```bash
-    streamlit run app.py
-    ```
-
-7. **Access the app:**
-    - Open your web browser and go to `http://localhost:8501`
-
-## Usage
-
-1. Upload an image of your food using the file uploader.
-2. Click the "Tell me about this food" button.
-3. View the detailed analysis, including:
-   - Dish identification
-   - Calorie breakdown per food item
-   - Healthy and potentially harmful ingredients
-   - Total calorie estimate and daily intake percentage
-
-## Screenshots
-
-[Add a screenshot of your application here]
-
-## Contributing
-
-Contributions are welcome! If you'd like to improve Calorie Counter, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or suggestions, please feel free to reach out:
-
-- Email: [Sauravsrivastav2205@gmail.com](mailto:Sauravsrivastav2205@gmail.com)
-- LinkedIn: [in/sauravsrivastav2205](https://www.linkedin.com/in/sauravsrivastav2205)
-- GitHub: [https://github.com/SauravSrivastav](https://github.com/SauravSrivastav)
+<sub>Streamlit · Gemini Vision · Python · AI · Computer Vision · Nutrition · Health · Generative AI · Azure</sub>
